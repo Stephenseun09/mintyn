@@ -8,11 +8,14 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #01041a;
+  background-color: #e5e5e5;
 }
 
-* {
-  font-family: "Poppins", sans-serif;
+*,
+*::before,
+*::after {
+  font-family: "Roboto", sans-serif;
+
   /* line-height: 1.5; */
 }
 
@@ -31,7 +34,7 @@ a {
   }
 } */
 
-.layout {
+/* .layout {
   grid:
     "header header header" auto
     "sidebar main main" auto
@@ -44,4 +47,4 @@ a {
 }
 .active-sidebar-link {
   @apply text-primary-deepBlue bg-white;
-}
+} */

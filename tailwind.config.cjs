@@ -7,7 +7,7 @@ module.exports = {
         primary: {
           DEFAULT: "#ffffff",
           dark: "#0f172abf",
-          blue: "#1F56C3",
+          blue: "#1875F0",
           deepBlue: "#012A7A",
         },
         secondary: {
@@ -21,16 +21,17 @@ module.exports = {
           DEFAULT: "#373435",
           dark: "#0f172abf",
         },
+        greyBlue: "#647787",
       },
       backgroundColor: {
         primary: {
-          blue: "#1F56C3",
+          blue: "#1875F0",
         },
         paragraph: "#000000",
       },
       fontFamily: {
-        primary: ["'Poppins'", "sans-serif"],
-        secondary: ["'Poppins'", "sans-serif"],
+        roboto: ["'Roboto'", "sans-serif"],
+        segoe: ["'Segoe UI'", "sans-serif"],
       },
     },
   },
