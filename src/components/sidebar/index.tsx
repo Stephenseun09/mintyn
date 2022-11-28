@@ -17,6 +17,7 @@ const Sidebar = ({ isOpen, onClose }: Props) => {
     >
       <div className="flex flex-col mt-6 mb-2 grow">
         <div className="flex ml-6 ">
+          {/* -----cta----- */}
           <button className="px-5 py-2.5 bg-[#27AE60] text-white text-xs rounded-[30px] font-roboto">
             GENERATE INVOICE
           </button>
@@ -54,7 +55,6 @@ const Sidebar = ({ isOpen, onClose }: Props) => {
               </ul>
               {
                 // dont show hr if it;s the last list
-
                 index !== Lists.length - 1 && (
                   <hr className="border-[#E5E5E5] border-opacity-20 mt-2 md:mt-3 mb-3 md:mb-4" />
                 )

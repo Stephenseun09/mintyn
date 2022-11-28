@@ -10,7 +10,7 @@ const Search = ({
   return (
     <div className=" transition-all duration-200 ease-linear">
       <div
-        className={`${className} relative w-fit md:w-40  lg:w-60  flex items-center  bg-opacity-20  `}
+        className={` relative w-fit md:w-40  lg:w-60  flex items-center  bg-opacity-20  ${className}`}
       >
         <SearchIcon className="w-3 h-4 text-xl md:mr-2 text-secondary-dark " />
         <input

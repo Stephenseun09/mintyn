@@ -14,7 +14,7 @@ const CardTable = ({
         columns,
         data,
       },
-      usePagination //---------- will be added over time -------
+      usePagination //---------- will be added later -------
     );
   const firstPageRows = rows.slice(0, 20);
   return (

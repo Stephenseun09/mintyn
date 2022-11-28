@@ -12,7 +12,6 @@ const Root = () => {
         <Sidebar onClose={toggle.off} isOpen={isOpen} />
         <div className="md:ml-64 min-h-[900px] mt-[96px]">
           <Outlet />
-          {/* <ScrollToTop /> */}
         </div>
       </div>
     </div>

@@ -38,8 +38,12 @@ const Header = ({ isOpen, onClick }: Props) => {
         </div>
 
         <div className="flex justify-end  md:justify-between items-center text-secondary-dark grow font-segoe">
+          {/* -------------- */}
+          {/* ----search---- */}
           <Search className="bg-slate-300 px-3 py-3 rounded-lg" />
 
+          {/* ------------- */}
+          {/* ----links---- */}
           <div className=" space-x-2 md:space-x-3 lg:space-x-6  flex items-center text-[#647787]">
             <div className="hidden md:flex items-center space-x-4">
               {links.map((link, index) => (
@@ -48,8 +52,12 @@ const Header = ({ isOpen, onClick }: Props) => {
                 </Link>
               ))}
             </div>
+            {/* -------------------- */}
+            {/* ----Notification---- */}
             <Notification />
 
+            {/* -------------- */}
+            {/* ----avatar---- */}
             <div className="space-x-2 lg:space-x-3  flex items-center">
               <h6 className=" hidden md:block text-end text-sm leading-none">
                 <span className=" text-xs">Hello</span>

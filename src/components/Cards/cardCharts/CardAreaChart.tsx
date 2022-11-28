@@ -16,7 +16,7 @@ const CardAreaChart = () => {
   return (
     <CardChartWrapper>
       {/* Chart */}
-      <ResponsiveContainer width="100%" height={300}>
+      <ResponsiveContainer width="100%" height={300} className="text-xs">
         <AreaChart
           // width={500}
           // height={300}
@@ -33,7 +33,7 @@ const CardAreaChart = () => {
               <stop offset="95%" stopColor="#FFFFFF" stopOpacity={0.1} />
             </linearGradient>
           </defs>
-          <CartesianGrid horizontal={false} />
+          <CartesianGrid horizontal={false} strokeDasharray="3 3" />
           <XAxis
             dataKey="name"
             tickLine={false}
