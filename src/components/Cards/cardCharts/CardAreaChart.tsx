@@ -1,6 +1,14 @@
 import { chartData } from "@/constants/cards";
 import { useMemo } from "react";
-import { AreaChart, Area, XAxis, Tooltip, ResponsiveContainer } from "recharts";
+import {
+  AreaChart,
+  Area,
+  XAxis,
+  Tooltip,
+  ResponsiveContainer,
+  CartesianGrid,
+  YAxis,
+} from "recharts";
 import CardChartWrapper from "./CardChartWrapper";
 
 const CardAreaChart = () => {
@@ -15,6 +23,8 @@ const CardAreaChart = () => {
           data={data}
           margin={{
             top: 10,
+            right: 30,
+            left: 30,
           }}
         >
           <defs>
@@ -23,7 +33,14 @@ const CardAreaChart = () => {
               <stop offset="95%" stopColor="#FFFFFF" stopOpacity={0.1} />
             </linearGradient>
           </defs>
-          {/* <XAxis dataKey="name" /> */}
+          <CartesianGrid horizontal={false} />
+          <XAxis
+            dataKey="name"
+            tickLine={false}
+            // axisLine={false}
+            // orientation="top"
+          />
+
           <Tooltip />
 
           <Area
