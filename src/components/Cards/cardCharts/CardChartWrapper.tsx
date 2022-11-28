@@ -16,7 +16,7 @@ const CardChartWrapper = ({ children }: Props) => {
       <div className="rounded-t mb-2 md:mb-6 px-6 py-6 ">
         <div className="flex flex-wrap items-center justify-between">
           <div className="relative w-full max-w-full flex-grow flex-1">
-            <h2 className="text-xl font-semibold text-[#4F4F4F]">
+            <h2 className="text-lg md:text-xl font-semibold text-[#4F4F4F]">
               Today: {date}
             </h2>
           </div>

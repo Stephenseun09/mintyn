@@ -45,7 +45,7 @@ const cardDetailData = [
 
 const CardDetails = () => {
   return (
-    <div className=" flex md:flex-col gap-4 h-full ">
+    <div className=" flex flex-col gap-4 h-full ">
       {cardDetailData.map((item, index) => {
         return (
           <CardDetail key={index} name={item.name} details={item.details} />

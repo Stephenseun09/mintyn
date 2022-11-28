@@ -1,6 +1,5 @@
 export { default as ArrowLeft } from "./ArrowLeft";
 export { default as ArrowRight } from "./ArrowRight";
-export { default as Pill } from "./Pill";
 export { default as SearchIcon } from "./SearchIcon";
 export { default as NotificationIcon } from "./NotificationIcon";
 export { default as CarretDownIcon } from "./CarretDownIcon";

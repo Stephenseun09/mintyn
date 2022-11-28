@@ -38,7 +38,7 @@ const Header = ({ isOpen, onClick }: Props) => {
         </div>
 
         <div className="flex justify-end  md:justify-between items-center text-secondary-dark grow font-segoe">
-          <Search />
+          <Search className="bg-slate-300 px-3 py-3 rounded-lg" />
 
           <div className=" space-x-2 md:space-x-3 lg:space-x-6  flex items-center text-[#647787]">
             <div className="hidden md:flex items-center space-x-4">

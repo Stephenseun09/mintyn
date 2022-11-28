@@ -9,7 +9,7 @@ type Props = {
 
 const CardDetail = ({ name, details }: Props) => {
   return (
-    <div className="bg-white shadow-xl p-4 space-y-3 w-1/2 md:w-full rounded grow">
+    <div className="bg-white shadow-xl p-4 space-y-3 w-full rounded grow">
       <h5 className="text-sm text-[#262626] font-semibold">{name}</h5>
       <div className="flex h-1 rounded-full overflow-hidden">
         <div
