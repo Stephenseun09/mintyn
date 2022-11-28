@@ -1,4 +1,4 @@
-import { Lists } from "@/constants/dashboard";
+import { Lists } from "@/constants";
 
 import { motion } from "framer-motion";
 import { NavLink, useLocation } from "react-router-dom";
@@ -25,7 +25,7 @@ const Sidebar = ({ isOpen, onClose }: Props) => {
         <hr className="border-[#E5E5E5] border-opacity-20 mt-2 md:mt-4 mb-3 md:mb-5" />
         {/* ---------------------- */}
         {/* -----Nav Links ------- */}
-        <ul className="flex flex-col text-greyBlue text-xs capitalize pb-4">
+        <ul className="flex flex-col text-greyBlue text-sm capitalize pb-4">
           {Lists.map((list, index) => (
             <li key={index} className="">
               {list.heading && (

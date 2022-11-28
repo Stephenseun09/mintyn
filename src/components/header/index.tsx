@@ -22,7 +22,7 @@ const links = [
 
 const Header = ({ isOpen, onClick }: Props) => {
   return (
-    <header className="relative  py-5 shadow-lg bg-primary z-20 ">
+    <header className=" fixed top-0 right-0 left-0 py-5 shadow-lg bg-primary z-20 ">
       <nav className="px-4 md:px-10 md:!pl-0 font-primary  flex items-center justify-between gap-6">
         {/* header and menu button */}
         <div className="md:w-64 md:pl-6 flex items-center ">

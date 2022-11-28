@@ -15,3 +15,4 @@ export { default as ReconciledOrdersIcon } from "./ReconciledOrdersIcon";
 export { default as ReconciledPaymentsIcon } from "./ReconciledPaymentsIcon";
 export { default as UnreconciledPaymentsIcon } from "./UnreconciledPaymentsIcon";
 export { default as SettlementsIcon } from "./SettlementsIcon";
+export { default as StatChartIcon } from "./StatChartIcon";

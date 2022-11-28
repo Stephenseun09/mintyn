@@ -14,7 +14,7 @@ body {
 *,
 *::before,
 *::after {
-  font-family: "Roboto", sans-serif;
+  font-family: "Segoe UI", sans-serif;
 
   /* line-height: 1.5; */
 }
@@ -27,24 +27,3 @@ a {
   -o-tap-highlight-color: transparent !important;
   -webkit-focus-ring-color: transparent !important;
 }
-
-/* @media only screen and (max-width: 600px) {
-  .container {
-    width: 100%;
-  }
-} */
-
-/* .layout {
-  grid:
-    "header header header" auto
-    "sidebar main main" auto
-    "sidebar main main" auto/
-    256px auto auto;
-}
-
-.sidebar-links {
-  @apply hover:bg-white hover:text-primary-deepBlue transition-all duration-200 ease-linear text-primary rounded-full mb-2;
-}
-.active-sidebar-link {
-  @apply text-primary-deepBlue bg-white;
-} */
